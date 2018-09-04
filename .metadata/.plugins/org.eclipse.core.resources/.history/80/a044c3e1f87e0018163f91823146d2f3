@@ -1,0 +1,9 @@
+
+public class StudentDemo {
+	static final int NUM_STUDENTS = 4;
+	public static void main(String[] args) {
+		
+		Student students[] = new Student[NUM_STUDENTS];
+		
+	}
+}

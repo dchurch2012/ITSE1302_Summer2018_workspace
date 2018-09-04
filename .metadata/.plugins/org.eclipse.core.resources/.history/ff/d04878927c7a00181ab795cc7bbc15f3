@@ -1,0 +1,50 @@
+import java.util.ArrayList;
+
+public class PerformStats { 
+	public static void main(String args[]) { 
+		Statistics stats = new Statistics();
+		
+		stats.performStats();
+	}
+
+	public static void performAdvanceDtatas()  {
+		Statistics stats = new Statistics();
+		
+		ArrayList<Double> dataList = new ArrayList<Double>();
+		ArrayList<Double> movingAverage = null;
+		
+		dataList.add(3.0);
+		dataList.add(5.0);
+		dataList.add(2.0);
+		dataList.add(8.0);
+		dataList.add(1.0);
+		dataList.add(2.0);
+		dataList.add(9.0);
+		dataList.add(1.5);
+		dataList.add(7.5);
+		dataList.add(5.5);
+    
+		movingAverage = stats.computeMovingAverage(dataList,4);
+		
+		System.out.println("Moving Average : ");
+	
+		for(Double value : movingAverage) {
+			System.out.println(value);
+		}
+	
+		dataList.clear();
+		
+		dataList.add(206.0);
+		dataList.add(76.0);
+		dataList.add(-224.0);
+		dataList.add(36.0);
+		dataList.add(-94.0);
+	
+		double standardDeviation = stats.computeStdDeviation(dataList);
+		
+		System.out.println("Standard Deviation : " + standardDeviation);
+	}
+}
+
+
+

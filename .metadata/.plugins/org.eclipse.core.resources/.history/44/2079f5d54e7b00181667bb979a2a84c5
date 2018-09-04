@@ -1,0 +1,22 @@
+
+public class ArrayDemo {
+	static final int ARRAY_SIZE = 20;
+	
+	public static void main(String[] args) {
+		int[] numIntegers = null;
+		numIntegers = new int[ARRAY_SIZE];
+		
+		int someNum = 34;
+		int sizeNum = someNum.length;
+		
+		for(int index = 0; index < numIntegers.length; index++) {
+			numIntegers[index] = index;
+		}
+
+		for(int index = 0; index < numIntegers.length; index++) {
+			System.out.println(numIntegers[index]);
+		}
+
+	}
+
+}

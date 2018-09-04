@@ -1,0 +1,41 @@
+
+public class ArrayDemo {
+	static final int ARRAY_SIZE = 20;
+	static final int ARRAY_DIM_ONE = 4;
+	static final int ARRAY_DIM_TWO = 10;
+	
+	public static void main(String[] args) {
+		OneDArrayDemo();
+		
+		
+		
+	}
+	
+	public static void TwoDArrayDemo() {
+		int dim2[][] = new int[4][10];
+		
+		
+		
+	}
+	
+	public static void OneDArrayDemo() {
+		int[] numIntegers = null;
+		numIntegers = new int[ARRAY_SIZE];
+		
+		int someNum = 34;
+		
+		// Can't do this -- an int is a primitive data type;
+		// Not an object (class) -- it does not contain methods
+		// or data other than the 64 bits that represents an integer
+		//int sizeNum = someNum.length;
+		
+		for(int index = 0; index < numIntegers.length; index++) {
+			numIntegers[index] = index;
+		}
+
+		for(int index = 0; index < numIntegers.length; index++) {
+			System.out.println(numIntegers[index]);
+		}
+	}
+
+}

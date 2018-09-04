@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.jdt.debug.ui.MAIN_METHOD_SELECTION_DIALOG">
+		<item value="true" key="ShowStatusLine"/>
+		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0D;&#x0A;&lt;History&gt;&#x0D;&#x0A;&lt;historyRootNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=GraphicBasics/src&amp;lt;graphicbasics{Driver1.java[Driver1&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=GraphicBasics/src&amp;lt;graphicbasics{Driver2.java[Driver2&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=GraphicBasics/src&amp;lt;graphicbasics{Driver3.java[Driver3&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=GraphicBasics/src&amp;lt;graphicbasics{Driver4.java[Driver4&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=GraphicBasics/src&amp;lt;graphicbasics{Driver5.java[Driver5&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=StatsLibrary/src&amp;lt;{PerformStats.java[PerformStats&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=json-simple/D:\/Users\/dchurch\/.p2\/pool\/plugins\/org.junit_4.12.0.v201504281640\/junit.jar&amp;lt;junit.textui(TestRunner.class[TestRunner&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=json-simple/D:\/Users\/dchurch\/.p2\/pool\/plugins\/org.junit_4.12.0.v201504281640\/junit.jar&amp;lt;junit.runner(Version.class[Version&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=QuizGenerator/D:\/Program Files\/Java\/jdk1.7.0\/lib\/sa-jdi.jar&amp;lt;sun.jvm.hotspot.ui(AnnotatedMemoryPanel.class[AnnotatedMemoryPanel&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=QuizGenerator/D:\/Program Files\/Java\/jdk1.7.0\/lib\/sa-jdi.jar&amp;lt;sun.jvm.hotspot.ui(DebuggerConsolePanel.class[DebuggerConsolePanel&lt;/infoNode&gt;&#x0D;&#x0A;&lt;/historyRootNode&gt;&#x0D;&#x0A;&lt;/History&gt;" key="History"/>
+		<section name="DialogBoundsSettings">
+			<item value="600" key="DIALOG_WIDTH"/>
+			<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+			<item value="500" key="DIALOG_HEIGHT"/>
+			<item value="100" key="DIALOG_X_ORIGIN"/>
+			<item value="8" key="DIALOG_Y_ORIGIN"/>
+		</section>
+	</section>
+</section>

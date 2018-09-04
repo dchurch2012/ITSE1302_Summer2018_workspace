@@ -1,0 +1,594 @@
+<<
+Choose the appropriate data type for this value: 5.5
+%Int,double,boolean,String%
+>>
+<<
+What is the correct syntax for java main method?
+%public void main(String[] args),public static void main(string[] args),public static void main(),none of the above%
+>>
+<<
+Choose the appropriate data type for this field: isSwimmer
+%double,boolean,string,int%
+>>
+<<
+Which of the following is not a Java keyword?
+%static,try,Integer,new%
+>>
+<<
+What is an assignment statement?
+%Adding a number to an int,Assigning a multiplication,Assigning a name to a variable,Assigning a value to a variable%
+>>
+<<
+Java runs on _______.
+%Windows,Unix/Linux,Mac,All of the above%
+>>
+<<
+What is the default value of the local variables?
+%null,0,depends on the data type,no default value for local variables%
+>>
+<<
+Following code will result in: int a1 = 5; double a2 = (float)a1;
+%Compilation error,Runtime error,No errors,Runtime Exception%
+>>
+<<
+Following code will result in: int num = 6.7;
+%Compilation error,Runtime error,num being 6.7,num being 6%
+>>
+<<
+Primitive datatypes are allocated on a stack
+%True,False%
+>>
+<<
+What is the size of a Char in Java?
+%What is the size of a Char in Java?,7 bits,8 bits,16 bits%
+>>
+<<
+Java is an acronym
+%True,False%
+>>
+<<
+Abstraction hides complexity
+%False,True%
+>>
+<<
+Booleans are _____.
+%True or False,Single characters,Text,All numbers%
+>>
+<<
+What will be the value of “num” after the following statements? 
+int num;
+num = (5+4);
+num = num / 9;
+num = 12;
+
+%0,1,12,9%
+>>
+<<
+All Variables Must be Declared before they are used
+%true,false%
+>>
+<<
+All strings end with a null zero inside memory 
+%true,false%
+>>
+<<
+Variable Neames may begin with a number
+%false,true%
+>>
+<<
+In Java 5/2 = 
+%2,2.5,3,none of the above%
+>>
+<<
+In Java the % refers to
+%percentages,modulus operator,division,data storage%
+>>
+<<
+The method toLowerCase() changes all lowercase letters to uppercase and all uppercase letters to lowercase
+%true,false%
+>>
+<<
+Variables that describe the data stored at that particular memory location are called
+%identifiers,constant variables,floating point variables,mnemonic variables%
+>>
+<<
+Array indexing always starts with the number
+%0,1,2,3%
+>>
+<<
+The following statement is valid : double Price = 7,450.98
+%true,false%
+>>
+<<
+In Java 12 % 5 = 
+%1,2,3,4%
+>>
+<<
+The method IndexOf will allow you to search for the location of a comma
+%true,false%
+>>
+<<
+Mathematicians and computers interpret the equal (=)  sign in the same way
+%true,false%
+>>
+<<
+A character variable may contain up to seven letters
+%true,false%
+>>
+<<
+When a datatype must contain decimal numbers, assign the type
+%int,char,double,long int%
+>>
+<<
+Variables that are declared, but not initialized, contain
+%blank spaces,zeros,"garbage" values,nothing-they are empty%
+>>
+<<
+A variable is given a value through
+%osmosis,an assignment operator,the import statement,the public class declarations%
+>>
+<<
+the method length() will return an integer that represents the length of a string value
+%true,false%
+>>
+<<
+The name of a variable is known as
+%identifier,constant,data type,base%
+>>
+<<
+
+What is the output of the following program ?
+
+    public static void main(String ags[]){
+        String a="abc";
+        String b=new String("abc");
+        System.out.println(a.equals(b));
+        System.out.println(a==b);
+    }
+
+%false,false,true,false,false,true%
+>>
+<<
+What would be the value of x after the following statements were executed?
+int x = 10;
+switch (x)
+{
+case 10:
+x += 15;
+break;
+case 12:
+x -= 5;
+break;
+default:
+x *= 3;
+}
+%30,25,20%
+>>
+<<
+What would be the value of x after the following statements were executed?
+int x = 15;
+switch (x)
+{
+case 10:
+x += 15; break;
+case 12:
+x -= 5; break;
+default:
+x *= 3;
+}
+%5,20,45,30%
+>>
+<<
+What would be the value of x after the following statements were executed?
+int x = 15;
+switch (x)
+{
+case 10:
+x += 15; break;
+case 12:
+x -= 5; break;
+}
+%5,20,15,30%
+>>
+<<
+What would be the value of x after the following statements were executed?
+int x = 10;
+switch (x)
+{
+case 10:
+x += 15;
+case 12:
+x -= 5; break;
+}
+%5,20,25,30%
+>>
+<<
+What is the value of routeNumber after the following statement is executed ?
+int zipCode = 93705, routeNumber;
+switch (zipCode)
+{
+case 93705:
+case 93706:
+routeNumber = 1;
+break;
+case 93710:
+case 93720:
+routeNumber = 2;
+break;
+default:
+routeNum
+%0,2,1,undefined%
+>>
+<<
+What is the value of x after the following statements are executed?
+int x = 5;
+switch(x)
+{
+case 5:
+x += 2;
+case 6:
+x++;
+break;
+default:
+x *= 2;
+break;
+}
+%6,7,8,10%
+>>
+<<
+In a do-while loop, the Boolean expression is tested
+%before the loop is executed ,after the loop is executed,both before and after the loop is executed%
+>>
+<<
+In a while loop, the Boolean expression is tested
+%before the loop is executed ,after the loop is executed,both before and after the loop is executed%
+>>
+<<
+What will be the value of x after the following code is executed?
+int x = 10;
+while (x < 100) {
+x += 10;
+}
+%90,100,110,infinite loop%
+>>
+<<
+What will be the value of x after the following code is executed?
+int x = 10, y = 20;
+while (y < 100) {
+x += y;
+}
+%90,110,210,infinite loop%
+>>
+<<
+How many times will this loop be executed?
+int x = 10;
+while (x < 100) ;
+{
+x += 10;
+}
+%9,10,11,infinite loop%
+>>
+<<
+What will be the value of x after the following code is executed?
+int x = 10;
+do {
+x *= 20;
+} while (x > 5);
+%10,200,infinite loop,compiler error because the initial value of x > 5%
+>>
+<<
+What will be the value of x after the following code is executed?
+int x = 11;
+do
+{
+x += 10;
+} while (x > 100);
+%11,21,101,none of these%
+>>
+<<
+How many lines are printed on the console when the following for loop is executed?
+int i = 10;
+for ( i = 2; i < 10; i++) {
+System.out.println(i);
+}
+%8,10,9,7%
+>>
+<<
+What will be the value of y after the following code is executed?
+int x; int y=0;
+for (x = 1; x < 5; x += 1)
+{
+y += 4;
+y+= 1;
+}
+%20,25,30,none of these%
+>>
+<<
+How many lines are printed on the console when the following for loop is executed?
+for (int j = 10; j < 40; j *= 2)
+{
+System.out.println(j);
+}
+%1,2,3,4%
+>>
+<<
+What is the output of the following code?
+int x;
+for( x = 1; x <= 5; x = x+2) {
+System.out.print(x + ",");
+}
+System.out.println (x);
+%1,3,5,6,1,3,5,1,3,5,7,none of these%
+>>
+<<
+What is the output of the following code?
+int sum = 5 ;
+for(int i = 1; i<=5; i++)
+{ sum += i; }
+System.out.print (sum);
+%5,10,15,20%
+>>
+<<
+What is the output of the following code?
+int x = 10;
+for( x = 1; x <= 5; x++) {
+System.out.print(x + ",");
+}
+System.out.println(x);
+%1,2,3,4,5,6,1,2,3,4,5,6,7,1,2,3,4,5,none of these%
+>>
+<<
+1. Which of the following is FALSE about arrays on Java
+%A java array is always an object,Length of array can be changed after creation of array,Arrays in Java are always allocated on heap%
+>>
+<<
+Predict the output?
+// file name: Main.java
+public class Main {
+    public static void main(String args[]) {
+       int arr[] = {10, 20, 30, 40, 50};
+       for(int i=0; i < arr.length; i++)
+       {
+             System.out.print(" " + arr[i]);     
+%10 20 30 40 50,Compiler Error,10 20 30 40%
+>>
+<<
+class Test {
+   public static void main(String args[]) {
+     int arr[2];  
+     System.out.println(arr[0]);
+     System.out.println(arr[1]);
+   }
+}
+
+%0
+0
+,garbage value
+garbage value,compiler error%
+>>
+<<
+public class Main {
+    public static void main(String args[]) {
+        int arr[][] = new int[4][];
+        arr[0] = new int[1];
+        arr[1] = new int[2];
+        arr[2] = new int[3];
+        arr[3] = new int[4];
+  
+        int i, j, k = 0;
+  
+%Compiler Error, 0
+ 1 2
+ 3 4 5
+ 6 7 8 9 , 0
+ 0 0
+ 0 0 0
+ 0 0 0 0 , 9
+ 7 8
+ 4 5 6
+ 0 1 2 3 %
+>>
+<<
+Output of following Java program?
+
+class Test
+{
+    public static void main (String[] args) 
+    {
+        int arr1[] = {1, 2, 3};
+        int arr2[] = {1, 2, 3};
+        if (arr1 == arr2) 
+            System.out.println("Same");
+        else
+  
+%Same,Not Same%
+>>
+<<
+Output of following Java program?
+
+import java.util.Arrays;
+class Test
+{
+    public static void main (String[] args) 
+    {
+        int arr1[] = {1, 2, 3};
+        int arr2[] = {1, 2, 3};
+        if (Arrays.equals(arr1, arr2))
+            System.
+%Same,Not Same%
+>>
+<<
+class Test
+{
+    public static void main (String[] args) 
+    {
+        int arr1[] = {1, 2, 3};
+        int arr2[] = {1, 2, 3};
+        if (arr1.equals(arr2))
+            System.out.println("Same");
+        else
+            System.out.println("Not
+%Same,Not Same%
+>>
+<<
+Which of the following, if any, is an invalid array declaration?
+%String[] names = new String[5];,String names[] = new String[5];,String[] names = new String[0];,all are valid%
+>>
+<<
+Which of the following statements gets the number of integers in the array that follows?
+int[] customers = new int[55];
+%int size = customers.length();,int size = customers.length;,int size = customers.size();,int size = Arrays.size(customers);	%
+>>
+<<
+The length of the following array is
+int[] grades = new int[4];
+%0,3,4,5		%
+>>
+<<
+What will be the output of the following code?
+int[] arr = new int[9];
+System.out.println(arr[0]);
+%0,some junk value,error because array is not initialized,error because index must be greater than	%
+>>
+<<
+What will be the output of the following code?
+int[] arr = new int[9];
+System.out.println(arr[9]);
+%0,some junk value,error because array is not initialized,error because index must be greater than	%
+>>
+<<
+What is the value of names[4] in the following array?
+String[] names = {"Jeff", "Dan", "Sally", "Jill", "Allie"};
+%Sally,Allie,Jill%
+>>
+<<
+What is the highest index value associated with the array that follows?
+byte[] values = new byte[x];
+%0,X,X+1,x - 1%
+>>
+<<
+What numbers does the code that follows print to the console?
+int[] numbers = {1, 2, 3, 4, 5, 6, 7, 8, 9};
+for (int i = 0; i < 8; i++) {
+System.out.println(numbers[i]);
+}
+%0-9,1-9,1-8,2-9%
+>>
+<<
+TEST
+%asdf,asdf,asdf,asdf%
+>>
+<<
+Which of the following is FALSE about arrays on Java
+%A java array is always an object,Length of array can be changed after creation of array,Arrays in Java are always allocated on heap%
+>>
+<<
+Predict the output?
+// file name: Main.java
+public class Main {
+    public static void main(String args[]) {
+       int arr[] = {10, 20, 30, 40, 50};
+       for(int i=0; i < arr.length; i++)
+       {
+             System.out.print(" " + arr[i]);     
+%10 20 30 40 50,compiler error,10 20 30 40%
+>>
+<<
+Predict the output:
+
+class Test {
+   public static void main(String args[]) {
+     int arr[2];  
+     System.out.println(arr[0]);
+     System.out.println(arr[1]);
+   }
+}
+
+%0
+0,garbage value
+garbage value,Compiler Error%
+>>
+<<
+Output?
+
+public class Main {
+    public static void main(String args[]) {
+        int arr[][] = new int[4][];
+        arr[0] = new int[1];
+        arr[1] = new int[2];
+        arr[2] = new int[3];
+        arr[3] = new int[4];
+  
+        int i, j,
+%Compiler Error, 0
+ 1 2
+ 3 4 5
+ 6 7 8 9 , 0
+ 0 0
+ 0 0 0
+ 0 0 0 0 , 9
+ 7 8
+ 4 5 6
+ 0 1 2 3 %
+>>
+<<
+Output of following Java program?
+
+class Test
+{
+    public static void main (String[] args) 
+    {
+        int arr1[] = {1, 2, 3};
+        int arr2[] = {1, 2, 3};
+        if (arr1 == arr2) 
+            System.out.println("Same");
+        else
+  
+%Same,Not same%
+>>
+<<
+Output?:
+
+class Test
+{
+    public static void main (String[] args) 
+    {
+        int arr1[] = {1, 2, 3};
+        int arr2[] = {1, 2, 3};
+        if (arr1.equals(arr2))
+            System.out.println("Same");
+        else
+            System.out.
+%Same,Not same%
+>>
+<<
+Which of the following, if any, is an invalid array declaration?
+%String[] names = new String[5];,String names[] = new String[5];,String[] names = new String[0];,all are valid	%
+>>
+<<
+The length of the following array is
+int[] grades = new int[4];
+%0,3,4,5%
+>>
+<<
+What will be the output of the following code?
+int[] arr = new int[9];
+%0,some junk value,error because array is not initialized,none of these,0,some junk value,error because array is not initialized,error because index is out of range%
+>>
+<<
+What is the value of names[4] in the following array?
+String[] names = {"Jeff", "Dan", "Sally", "Jill", "Allie"};
+%Sally,Jill,Allie%
+>>
+<<
+What is the highest index value associated with the array that follows?
+byte[] values = new byte[x];
+%0,X,X+1,X-1%
+>>
+<<
+What numbers does the code that follows print to the console?
+int[] numbers = {1, 2, 3, 4, 5, 6, 7, 8, 9};
+for (int i = 0; i < 8; i++) {
+System.out.println(numbers[i]);
+}
+%0-9,1-9,1-8,0-8%
